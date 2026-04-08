@@ -1,0 +1,12 @@
+table {
+    width: 100%;
+}
+td {
+    text-align: center;
+}
+button {
+    margin-right: 20px;
+}
+tr:nth-child(even) {
+    background-color: #ccc;
+}

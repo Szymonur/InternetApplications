@@ -1,0 +1,464 @@
+(1) Krzesiny-Pokrzywno-Garaszewo | Średnia: 446.50 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 164 zł/m2 | Total: 115000 zł
+   [2] 280 zł/m2 | Total: 21280000 zł
+   [3] 280 zł/m2 | Total: 3360000 zł
+   [4] 600 zł/m2 | Total: 5400000 zł
+   [5] 600 zł/m2 | Total: 5400000 zł
+
+(2) Garaszewo | Średnia: 660.00 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 660 zł/m2 | Total: 2000000 zł
+
+(3) Marlewo | Średnia: 750.00 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 750 zł/m2 | Total: 2700000 zł
+
+(4) Minikowo | Średnia: 859.00 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 859 zł/m2 | Total: 530000 zł
+
+(5) Morasko | Średnia: 1830.22 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 55 zł/m2 | Total: 165000 zł
+   [2] 55 zł/m2 | Total: 550000 zł
+   [3] 450 zł/m2 | Total: 516150 zł
+   [4] 483 zł/m2 | Total: 649000 zł
+   [5] 542 zł/m2 | Total: 2800000 zł
+
+(6) Radojewo | Średnia: 2088.33 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 420 zł/m2 | Total: 489720 zł
+   [2] 420 zł/m2 | Total: 672000 zł
+   [3] 5425 zł/m2 | Total: 1750000 zł
+
+(7) Pokrzywno | Średnia: 2546.67 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 945 zł/m2 | Total: 2849647 zł
+   [2] 945 zł/m2 | Total: 2849647 zł
+   [3] 5750 zł/m2 | Total: 1150000 zł
+
+(8) Krzyżowniki | Średnia: 2683.00 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 2683 zł/m2 | Total: 12000000 zł
+
+(9) Fabianowo-Kotowo | Średnia: 2717.67 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 399 zł/m2 | Total: 1999000 zł
+   [2] 1167 zł/m2 | Total: 41500000 zł
+   [3] 6587 zł/m2 | Total: 41500000 zł
+
+(10) Krzesiny | Średnia: 2827.20 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 281 zł/m2 | Total: 990000 zł
+   [2] 309 zł/m2 | Total: 285000 zł
+   [3] 600 zł/m2 | Total: 5400000 zł
+   [4] 1971 zł/m2 | Total: 69000 zł
+   [5] 10975 zł/m2 | Total: 439000 zł
+
+(11) Fabianowo | Średnia: 3440.80 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 300 zł/m2 | Total: 2620800 zł
+   [2] 811 zł/m2 | Total: 7300000 zł
+   [3] 4899 zł/m2 | Total: 2300000 zł
+   [4] 4899 zł/m2 | Total: 2300000 zł
+   [5] 6295 zł/m2 | Total: 1599000 zł
+
+(12) Świerczewo | Średnia: 4834.29 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 3329 zł/m2 | Total: 2199000 zł
+   [2] 3329 zł/m2 | Total: 2199000 zł
+   [3] 3916 zł/m2 | Total: 979000 zł
+   [4] 5081 zł/m2 | Total: 940000 zł
+   [5] 5750 zł/m2 | Total: 1150000 zł
+
+(13) Głuszyna | Średnia: 5086.60 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 375 zł/m2 | Total: 449950 zł
+   [2] 413 zł/m2 | Total: 468000 zł
+   [3] 4993 zł/m2 | Total: 669000 zł
+   [4] 8854 zł/m2 | Total: 564000 zł
+   [5] 10798 zł/m2 | Total: 429000 zł
+
+(14) Szczepankowo-Spławie-Krzesinki | Średnia: 5757.05 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 210 zł/m2 | Total: 8760990 zł
+   [2] 370 zł/m2 | Total: 2301400 zł
+   [3] 417 zł/m2 | Total: 1250000 zł
+   [4] 518 zł/m2 | Total: 720000 zł
+   [5] 560 zł/m2 | Total: 927360 zł
+
+(15) Spławie | Średnia: 5782.75 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 202 zł/m2 | Total: 1990000 zł
+   [2] 282 zł/m2 | Total: 1400000 zł
+   [3] 5147 zł/m2 | Total: 11200000 zł
+   [4] 17500 zł/m2 | Total: 1400000 zł
+
+(16) Umultowo | Średnia: 5992.78 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 103 zł/m2 | Total: 1890000 zł
+   [2] 420 zł/m2 | Total: 9731400 zł
+   [3] 557 zł/m2 | Total: 2999000 zł
+   [4] 1033 zł/m2 | Total: 1390000 zł
+   [5] 5068 zł/m2 | Total: 1799000 zł
+
+(17) Kiekrz | Średnia: 6600.00 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 6600 zł/m2 | Total: 1650000 zł
+
+(18) Krzyżowniki-Smochowice | Średnia: 6703.15 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 629 zł/m2 | Total: 1080000 zł
+   [2] 798 zł/m2 | Total: 479000 zł
+   [3] 1200 zł/m2 | Total: 876000 zł
+   [4] 1500 zł/m2 | Total: 8893500 zł
+   [5] 1500 zł/m2 | Total: 20764500 zł
+
+(19) wielkopolskie | Średnia: 7251.68 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 30 zł/m2 | Total: 450000 zł
+   [2] 55 zł/m2 | Total: 339130 zł
+   [3] 62 zł/m2 | Total: 650000 zł
+   [4] 150 zł/m2 | Total: 189000 zł
+   [5] 185 zł/m2 | Total: 19240000 zł
+
+(20) Smochowice | Średnia: 7314.15 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 1146 zł/m2 | Total: 1299000 zł
+   [2] 1400 zł/m2 | Total: 4200000 zł
+   [3] 4563 zł/m2 | Total: 1150000 zł
+   [4] 4823 zł/m2 | Total: 2450000 zł
+   [5] 5459 zł/m2 | Total: 1190000 zł
+
+(21) Kobylepole | Średnia: 7890.33 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 6180 zł/m2 | Total: 1650000 zł
+   [2] 8491 zł/m2 | Total: 450000 zł
+   [3] 9000 zł/m2 | Total: 1350000 zł
+
+(22) Morasko-Radojewo | Średnia: 7983.82 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 29 zł/m2 | Total: 800000 zł
+   [2] 230 zł/m2 | Total: 459000 zł
+   [3] 546 zł/m2 | Total: 669000 zł
+   [4] 9313 zł/m2 | Total: 669600 zł
+   [5] 9857 zł/m2 | Total: 699840 zł
+
+(23) Szczepankowo | Średnia: 8052.18 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 361 zł/m2 | Total: 7000000 zł
+   [2] 534 zł/m2 | Total: 2900000 zł
+   [3] 2539 zł/m2 | Total: 39900000 zł
+   [4] 4293 zł/m2 | Total: 2990000 zł
+   [5] 7000 zł/m2 | Total: 2380000 zł
+
+(24) Starołęka-Minikowo-Marlewo | Średnia: 8067.92 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 201 zł/m2 | Total: 215000 zł
+   [2] 445 zł/m2 | Total: 2500000 zł
+   [3] 465 zł/m2 | Total: 1395000 zł
+   [4] 473 zł/m2 | Total: 390000 zł
+   [5] 6935 zł/m2 | Total: 1299000 zł
+
+(25) Antoninek | Średnia: 8198.50 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 1397 zł/m2 | Total: 750000 zł
+   [2] 15000 zł/m2 | Total: 1350000 zł
+
+(26) Wola | Średnia: 8199.25 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 4852 zł/m2 | Total: 2450000 zł
+   [2] 5026 zł/m2 | Total: 950000 zł
+   [3] 7942 zł/m2 | Total: 2770000 zł
+   [4] 14977 zł/m2 | Total: 585000 zł
+
+(27) Ogrody | Średnia: 8215.86 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 1471 zł/m2 | Total: 899000 zł
+   [2] 8593 zł/m2 | Total: 1289000 zł
+   [3] 8720 zł/m2 | Total: 1648000 zł
+   [4] 8856 zł/m2 | Total: 866000 zł
+   [5] 8912 zł/m2 | Total: 3300000 zł
+
+(28) Ławica | Średnia: 8338.50 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 372 zł/m2 | Total: 149000 zł
+   [2] 4350 zł/m2 | Total: 3550000 zł
+   [3] 6421 zł/m2 | Total: 2490000 zł
+   [4] 7495 zł/m2 | Total: 1649000 zł
+   [5] 7609 zł/m2 | Total: 3500000 zł
+
+(29) Junikowo | Średnia: 8660.45 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 274 zł/m2 | Total: 750000 zł
+   [2] 274 zł/m2 | Total: 750000 zł
+   [3] 398 zł/m2 | Total: 995000 zł
+   [4] 398 zł/m2 | Total: 995000 zł
+   [5] 489 zł/m2 | Total: 4401000 zł
+
+(30) Grunwald Południe | Średnia: 8729.78 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 1154 zł/m2 | Total: 15000 zł
+   [2] 5185 zł/m2 | Total: 540000 zł
+   [3] 8680 zł/m2 | Total: 355000 zł
+   [4] 8680 zł/m2 | Total: 355000 zł
+   [5] 9508 zł/m2 | Total: 618000 zł
+
+(31) Dębiec | Średnia: 9313.70 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 985 zł/m2 | Total: 599000 zł
+   [2] 4015 zł/m2 | Total: 269000 zł
+   [3] 4145 zł/m2 | Total: 829000 zł
+   [4] 6426 zł/m2 | Total: 739000 zł
+   [5] 8054 zł/m2 | Total: 385000 zł
+
+(32) Śródka | Średnia: 9466.33 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 7989 zł/m2 | Total: 695000 zł
+   [2] 8846 zł/m2 | Total: 299000 zł
+   [3] 11564 zł/m2 | Total: 1050000 zł
+
+(33) Starołęka | Średnia: 9730.76 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 185 zł/m2 | Total: 499000 zł
+   [2] 260 zł/m2 | Total: 260000 zł
+   [3] 333 zł/m2 | Total: 100000 zł
+   [4] 4579 zł/m2 | Total: 1099000 zł
+   [5] 9181 zł/m2 | Total: 729000 zł
+
+(34) Warszawskie-Pomet-Maltańskie | Średnia: 9785.33 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 6500 zł/m2 | Total: 1300000 zł
+   [2] 9696 zł/m2 | Total: 2300000 zł
+   [3] 13160 zł/m2 | Total: 671818 zł
+
+(35) Górczyn | Średnia: 9788.84 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 3462 zł/m2 | Total: 4500000 zł
+   [2] 3724 zł/m2 | Total: 1899000 zł
+   [3] 3724 zł/m2 | Total: 1899000 zł
+   [4] 6606 zł/m2 | Total: 839000 zł
+   [5] 8931 zł/m2 | Total: 259000 zł
+
+(36) Ostrów Tumski-Śródka-Zawady-Komandoria | Średnia: 9902.50 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 4922 zł/m2 | Total: 12000000 zł
+   [2] 9124 zł/m2 | Total: 594000 zł
+   [3] 12104 zł/m2 | Total: 355000 zł
+   [4] 13460 zł/m2 | Total: 4800000 zł
+
+(37) Chartowo | Średnia: 9990.80 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 3077 zł/m2 | Total: 40000 zł
+   [2] 10943 zł/m2 | Total: 580000 zł
+   [3] 11934 zł/m2 | Total: 395000 zł
+   [4] 12000 zł/m2 | Total: 918240 zł
+   [5] 12000 zł/m2 | Total: 969840 zł
+
+(38) Rataje | Średnia: 10030.41 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 443 zł/m2 | Total: 438000 zł
+   [2] 1016 zł/m2 | Total: 2900000 zł
+   [3] 1330 zł/m2 | Total: 1290000 zł
+   [4] 2500 zł/m2 | Total: 30000 zł
+   [5] 2500 zł/m2 | Total: 30000 zł
+
+(39) Wilda | Średnia: 10037.00 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 126 zł/m2 | Total: 58000 zł
+   [2] 345 zł/m2 | Total: 138000 zł
+   [3] 1686 zł/m2 | Total: 21500000 zł
+   [4] 2500 zł/m2 | Total: 40000 zł
+   [5] 2992 zł/m2 | Total: 2599999 zł
+
+(40) Sołacz | Średnia: 10163.54 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 501 zł/m2 | Total: 747000 zł
+   [2] 2945 zł/m2 | Total: 2500000 zł
+   [3] 8191 zł/m2 | Total: 1245000 zł
+   [4] 9038 zł/m2 | Total: 479000 zł
+   [5] 9657 zł/m2 | Total: 620000 zł
+
+(41) Piątkowo | Średnia: 10174.69 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 660 zł/m2 | Total: 295000 zł
+   [2] 1759 zł/m2 | Total: 2099900 zł
+   [3] 8073 zł/m2 | Total: 599000 zł
+   [4] 8214 zł/m2 | Total: 515000 zł
+   [5] 8214 zł/m2 | Total: 515000 zł
+
+(42) Antoninek-Zieliniec-Kobylepole | Średnia: 10346.50 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 7477 zł/m2 | Total: 645000 zł
+   [2] 7937 zł/m2 | Total: 580000 zł
+   [3] 8065 zł/m2 | Total: 1500000 zł
+   [4] 8600 zł/m2 | Total: 1290000 zł
+   [5] 14500 zł/m2 | Total: 680195 zł
+
+(43) Nowe Miasto | Średnia: 10409.80 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 390 zł/m2 | Total: 6642000 zł
+   [2] 421 zł/m2 | Total: 370000 zł
+   [3] 600 zł/m2 | Total: 5400000 zł
+   [4] 600 zł/m2 | Total: 5400000 zł
+   [5] 617 zł/m2 | Total: 1250000 zł
+
+(44) Strzeszyn | Średnia: 10538.44 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 1681 zł/m2 | Total: 649000 zł
+   [2] 1772 zł/m2 | Total: 1490000 zł
+   [3] 4579 zł/m2 | Total: 979900 zł
+   [4] 4714 zł/m2 | Total: 330000 zł
+   [5] 9697 zł/m2 | Total: 737000 zł
+
+(45) Nowe Winogrady Południe | Średnia: 10819.00 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 10819 zł/m2 | Total: 515000 zł
+
+(46) Warszawskie | Średnia: 10826.00 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 10826 zł/m2 | Total: 1350000 zł
+
+(47) Krzesinki | Średnia: 10918.00 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 10918 zł/m2 | Total: 438900 zł
+
+(48) Podolany | Średnia: 11374.03 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 788 zł/m2 | Total: 600000 zł
+   [2] 960 zł/m2 | Total: 579000 zł
+   [3] 5880 zł/m2 | Total: 1100000 zł
+   [4] 8000 zł/m2 | Total: 940000 zł
+   [5] 8028 zł/m2 | Total: 1750000 zł
+
+(49) Grunwald | Średnia: 11395.07 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 40 zł/m2 | Total: 10880 zł
+   [2] 281 zł/m2 | Total: 700000 zł
+   [3] 569 zł/m2 | Total: 1200000 zł
+   [4] 665 zł/m2 | Total: 670000 zł
+   [5] 2824 zł/m2 | Total: 451905 zł
+
+(50) Wilczy Młyn | Średnia: 11419.67 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 11031 zł/m2 | Total: 507000 zł
+   [2] 11431 zł/m2 | Total: 456000 zł
+   [3] 11797 zł/m2 | Total: 409000 zł
+
+(51) Naramowice | Średnia: 11456.55 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 1133 zł/m2 | Total: 2900000 zł
+   [2] 1670 zł/m2 | Total: 840000 zł
+   [3] 2129 zł/m2 | Total: 2600000 zł
+   [4] 3000 zł/m2 | Total: 45000 zł
+   [5] 4056 zł/m2 | Total: 730000 zł
+
+(52) Łazarz | Średnia: 11545.83 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 5897 zł/m2 | Total: 733000 zł
+   [2] 6936 zł/m2 | Total: 790000 zł
+   [3] 7047 zł/m2 | Total: 599000 zł
+   [4] 7883 zł/m2 | Total: 499000 zł
+   [5] 7991 zł/m2 | Total: 895000 zł
+
+(53) Poznań | Średnia: 11821.77 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 23 zł/m2 | Total: 909000 zł
+   [2] 65 zł/m2 | Total: 2200 zł
+   [3] 142 zł/m2 | Total: 60000 zł
+   [4] 149 zł/m2 | Total: 109000 zł
+   [5] 160 zł/m2 | Total: 59000 zł
+
+(54) Winogrady | Średnia: 11909.88 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 1295 zł/m2 | Total: 969000 zł
+   [2] 2257 zł/m2 | Total: 79000 zł
+   [3] 2939 zł/m2 | Total: 140000 zł
+   [4] 3968 zł/m2 | Total: 65000 zł
+   [5] 5950 zł/m2 | Total: 285065 zł
+
+(55) Zawady | Średnia: 11934.33 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 10265 zł/m2 | Total: 349000 zł
+   [2] 10588 zł/m2 | Total: 360000 zł
+   [3] 14950 zł/m2 | Total: 299000 zł
+
+(56) Jeżyce | Średnia: 12046.80 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 736 zł/m2 | Total: 1150000 zł
+   [2] 1327 zł/m2 | Total: 199000 zł
+   [3] 1400 zł/m2 | Total: 3263000 zł
+   [4] 1400 zł/m2 | Total: 1509000 zł
+   [5] 1400 zł/m2 | Total: 1754000 zł
+
+(57) Stare Winogrady | Średnia: 12090.00 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 12090 zł/m2 | Total: 590000 zł
+
+(58) Główna | Średnia: 12115.00 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 9597 zł/m2 | Total: 416900 zł
+   [2] 14633 zł/m2 | Total: 560000 zł
+
+(59) Chwaliszewo | Średnia: 12154.00 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 6363 zł/m2 | Total: 999000 zł
+   [2] 10824 zł/m2 | Total: 920000 zł
+   [3] 11875 zł/m2 | Total: 629000 zł
+   [4] 11992 zł/m2 | Total: 599000 zł
+   [5] 14344 zł/m2 | Total: 424000 zł
+
+(60) Żegrze | Średnia: 12215.35 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 464 zł/m2 | Total: 5828768 zł
+   [2] 7561 zł/m2 | Total: 499000 zł
+   [3] 7955 zł/m2 | Total: 1750000 zł
+   [4] 8069 zł/m2 | Total: 525000 zł
+   [5] 9610 zł/m2 | Total: 709506 zł
+
+(61) Komandoria | Średnia: 12851.22 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 4945 zł/m2 | Total: 12000000 zł
+   [2] 4945 zł/m2 | Total: 12000000 zł
+   [3] 12600 zł/m2 | Total: 934920 zł
+   [4] 12650 zł/m2 | Total: 938630 zł
+   [5] 12700 zł/m2 | Total: 942340 zł
+
+(62) Maltańskie | Średnia: 12875.00 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 11553 zł/m2 | Total: 749000 zł
+   [2] 14197 zł/m2 | Total: 1299000 zł
+
+(63) Winiary | Średnia: 12951.46 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 1133 zł/m2 | Total: 17000 zł
+   [2] 8191 zł/m2 | Total: 1245000 zł
+   [3] 9255 zł/m2 | Total: 435000 zł
+   [4] 9821 zł/m2 | Total: 549000 zł
+   [5] 9898 zł/m2 | Total: 485000 zł
+
+(64) Grunwald Północ | Średnia: 13232.50 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 10865 zł/m2 | Total: 1695000 zł
+   [2] 15600 zł/m2 | Total: 499200 zł
+
+(65) Zieliniec | Średnia: 15477.00 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 15477 zł/m2 | Total: 670000 zł
+
+(66) Centrum | Średnia: 16350.08 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 2687 zł/m2 | Total: 180000 zł
+   [2] 6891 zł/m2 | Total: 8400000 zł
+   [3] 7530 zł/m2 | Total: 997000 zł
+   [4] 7800 zł/m2 | Total: 1241000 zł
+   [5] 9339 zł/m2 | Total: 1731840 zł
+
+(67) Stare Miasto | Średnia: 16372.07 zł/m2
+   Najtańsze oferty w tej dzielnicy:
+   [1] 1000 zł/m2 | Total: 90000 zł
+   [2] 5270 zł/m2 | Total: 340000 zł
+   [3] 6890 zł/m2 | Total: 1595000 zł
+   [4] 7589 zł/m2 | Total: 850000 zł
+   [5] 7603 zł/m2 | Total: 270000 zł

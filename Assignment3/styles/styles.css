@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+table,
+th,
+td,
+tr {
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+td {
+    padding: 8px 10px;
+}
+th {
+    padding: 8px 0;
+    font-size: 1.25rem;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+tr:nth-child(even) {
+    background-color: #ebebeb;
+}
+table {
+    width: 100%;
+}
+input[type="text"] {
+    padding: 10px 8px;
+    font-size: 1.25rem;
+}
+.searchBar span {
+    margin-right: 10px;
+    font-size: 1.25rem;
+}
+.container {
+    /* padding: 20px 50px; */
+}
