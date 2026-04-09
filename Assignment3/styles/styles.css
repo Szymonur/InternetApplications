@@ -28,6 +28,10 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
+label {
+    margin-right: 10px;
+    margin-left: 4px;
+}
 tr:nth-child(even) {
     background-color: #ebebeb;
 }
@@ -38,10 +42,17 @@ input[type="text"] {
     padding: 10px 8px;
     font-size: 1.25rem;
 }
+.searchBar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1rem;
+}
 .searchBar span {
     margin-right: 10px;
     font-size: 1.25rem;
 }
-.container {
-    /* padding: 20px 50px; */
-}
+
+/* .container {
+
+} */

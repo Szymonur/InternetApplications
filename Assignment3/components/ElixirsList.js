@@ -11,8 +11,9 @@ export default async function initialShowElixirs() {
 
 export function displayElixirs(elixirs) {
     const table = document.getElementById("elixir-list");
+
     table.innerHTML = `
-        <tr> zbrór zadań które wykowyałem na przedmiot Zaawansowe Aplikacje Internetowe 
+        <tr>                                                                                                                                       
             <th>Name</th>
             <th>Difficulty</th>
             <th>Effect</th>
