@@ -8,6 +8,7 @@ export default async function initialShowElixirs() {
         const data = await getElixirList();
         displayElixirs(data);
     } catch (error) {
+        alert("Error during fetching elixirs!");
         console.error("Error during initialShowElixirs:", error);
     } finally {
         hideLoader();
