@@ -27,3 +27,21 @@ export async function getElixirList() {
         console.error(error);
     }
 }
+
+export async function getElixirDetails(id) {
+    try {
+        const response = await getData(
+            `https://wizard-world-api.herokuapp.com/Elixirs/${id}`
+        );
+        console.log("simpulate sloooow api...");
+        return new Promise((resolve) => {
+            setTimeout(() => {
+                console.log("got response!");
+                resolve(response);
+            }, 700);
+        });
+        // only return - no store save
+    } catch (error) {
+        console.error(error);
+    }
+}

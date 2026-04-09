@@ -8,6 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    position: relative;
 }
 table,
 th,
@@ -16,12 +17,35 @@ tr {
     border-collapse: collapse;
     border: 1px solid black;
 }
+tr {
+    cursor: pointer;
+}
 td {
     padding: 8px 10px;
 }
 th {
     padding: 8px 0;
     font-size: 1.25rem;
+}
+/* name */
+th:nth-child(1) {
+    width: 20%;
+    max-width: 20%;
+}
+/* difficulty */
+th:nth-child(2) {
+    width: 15%;
+    max-width: 15%;
+}
+/* difficulty */
+th:nth-child(3) {
+    width: 32.5%;
+    max-width: 32.5%;
+}
+/* side effects */
+th:nth-child(4) {
+    width: 32.5%;
+    max-width: 32.5%;
 }
 nav {
     display: flex;
@@ -31,6 +55,7 @@ nav {
 label {
     margin-right: 10px;
     margin-left: 4px;
+    cursor: pointer;
 }
 tr:nth-child(even) {
     background-color: #ebebeb;
@@ -52,7 +77,65 @@ input[type="text"] {
     margin-right: 10px;
     font-size: 1.25rem;
 }
+.elixir-details {
+    z-index: 5;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    min-height: 300px;
+    max-height: 80vh;
+    overflow-y: auto;
+    background-color: #ebebeb;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px 30px;
+    display: none;
+}
+.elixir-details p {
+    margin-top: 10px;
+    font-size: 1.25rem;
+}
+.elixir-details li {
+    font-size: 1.25rem;
+}
+.backgound {
+    z-index: 3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid rebeccapurple;
+    background-color: #ebebebab;
+    display: none;
+}
+.close-details {
+    padding: 5px 10px;
+    font-size: 1.25rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.details-top-bar {
+    display: flex;
+    justify-content: space-between;
+}
+.loader {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    z-index: 100;
+    font-weight: bold;
+}
 
-/* .container {
-
-} */
+.container h2 {
+    text-align: center;
+    margin: 30px 0;
+}

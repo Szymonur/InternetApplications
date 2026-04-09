@@ -1,16 +1,22 @@
 import { getElixirList } from "../services/api.js";
+import { hideLoader, showLoader } from "../utils/loader.js";
+import { displayElixirsDetailsFromApi } from "../components/ElixirDetails.js";
 
 export default async function initialShowElixirs() {
     try {
+        showLoader();
         const data = await getElixirList();
         displayElixirs(data);
     } catch (error) {
         console.error("Error during initialShowElixirs:", error);
+    } finally {
+        hideLoader();
     }
 }
 
 export function displayElixirs(elixirs) {
     const table = document.getElementById("elixir-list");
+    const messageContainer = document.getElementById("messageContainer");
 
     table.innerHTML = `
         <tr>                                                                                                                                       
@@ -20,6 +26,12 @@ export function displayElixirs(elixirs) {
             <th>Side Effects</th>
         </tr>
     `;
+
+    if (elixirs.length == 0) {
+        messageContainer.innerHTML = `No results found`;
+    } else {
+        messageContainer.innerHTML = ``;
+    }
 
     elixirs.forEach((elixir) => {
         const tr = document.createElement("tr");
@@ -43,5 +55,9 @@ export function displayElixirs(elixirs) {
         td_side_effectst.appendChild(
             document.createTextNode(elixir.sideEffects ?? "")
         );
+
+        tr.onclick = () => {
+            displayElixirsDetailsFromApi(elixir.id);
+        };
     });
 }

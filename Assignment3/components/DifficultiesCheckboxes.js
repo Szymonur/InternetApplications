@@ -1,5 +1,6 @@
-import debounce from "../utils/debounce.js";
 import { displayElixirs } from "../components/ElixirsList.js";
+import debounce from "../utils/debounce.js";
+
 import { Store } from "../services/store.js";
 
 export default function initDifficultiesCheckboxes() {
@@ -16,8 +17,11 @@ export default function initDifficultiesCheckboxes() {
         newCheckBox.checked = true;
         difficultyLevelCheckboxes.appendChild(newCheckBox);
 
-        newCheckBox.addEventListener("change", () => {
+        const debouncedHandleFilterChange = debounce(() => {
             handleFilterChange();
+        });
+        newCheckBox.addEventListener("change", () => {
+            debouncedHandleFilterChange();
         });
 
         var newLabel = document.createElement("label");
