@@ -19,9 +19,9 @@ export async function displayElixirsDetailsFromApi(id) {
 			</div>
 			
 			</br>
-			<p> difficulty:  ${details.difficulty ?? "No data"}  </p>
-			<p> effect:  ${details.effect ?? "No data"}  </p>
-			<p> SideEffects:  ${details.sideEffects ?? "No known side effects"}  </p>
+			<p> Difficulty:  ${details.difficulty ?? "No data"}  </p>
+			<p> Effect:  ${details.effect ?? "No data"}  </p>
+			<p> Side Effects:  ${details.sideEffects ?? "No known side effects"}  </p>
 			<p> <b>Ingrediens </b> </p>
 			<ul>
 				${
@@ -29,7 +29,7 @@ export async function displayElixirsDetailsFromApi(id) {
                         ? details.ingredients
                               .map((ing) => `<li>${ing.name}</li>`)
                               .join("")
-                        : "<li>No ingredients listed</li>"
+                        : "No ingredients listed"
                 }
 			</ul>
 		
