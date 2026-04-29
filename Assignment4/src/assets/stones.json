@@ -1,0 +1,46 @@
+{
+    "stones": [
+        {
+            "id": 1,
+            "name": "Ametyst",
+            "description": "Fioletowa odmiana kwarcu, ceniona za swoje piękno i głębię koloru. Często występuje w formie geod.",
+            "image": "./src/assets/images/ametyst.jpg",
+            "rating": 5
+        },
+        {
+            "id": 2,
+            "name": "Kwarc Różowy",
+            "description": "Kamień o delikatnie różowej barwie, nazywany kamieniem miłości. Często używany w jubilerstwie i dekoracji.",
+            "image": "./src/assets/images/kwarc_rozowy.jpg",
+            "rating": 4
+        },
+        {
+            "id": 3,
+            "name": "Lapis Lazuli",
+            "description": "Skała metamorficzna o intensywnym niebieskim kolorze z drobinkami złocistego pirytu.",
+            "image": "./src/assets/images/lapis_lazuli.jpg",
+            "rating": 5
+        },
+        {
+            "id": 4,
+            "name": "Tygrysie Oko",
+            "description": "Migotliwa odmiana kwarcu, wykazuje efekt kociego oka. Charakteryzuje się złocistymi pasami.",
+            "image": "./src/assets/images/tygrysie_oko.jpg",
+            "rating": 3
+        },
+        {
+            "id": 5,
+            "name": "Obsydian",
+            "description": "Szkliwo wulkaniczne o czarnym kolorze. Powstaje w wyniku gwałtownego stygnięcia lawy.",
+            "image": "./src/assets/images/obsydian.jpg",
+            "rating": 4
+        },
+        {
+            "id": 6,
+            "name": "Malachit",
+            "description": "Minerał z gromady węglanów o charakterystycznym, nasyconym zielonym kolorze i pasiastym wzorze.",
+            "image": "./src/assets/images/malachit.jpg",
+            "rating": 5
+        }
+    ]
+}
