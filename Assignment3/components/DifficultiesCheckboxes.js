@@ -5,7 +5,7 @@ import { Store } from "../services/store.js";
 
 export default function initDifficultiesCheckboxes() {
     const difficultyLevelCheckboxes = document.getElementById(
-        "difficultyLevelCheckboxes"
+        "difficultyLevelCheckboxes",
     );
     const difficultyLevels = Store.getDifficultyLevels();
 
@@ -33,7 +33,7 @@ export default function initDifficultiesCheckboxes() {
 
 function handleFilterChange() {
     const checkedBoxes = document.querySelectorAll(
-        '#difficultyLevelCheckboxes input[type="checkbox"]:checked'
+        '#difficultyLevelCheckboxes input[type="checkbox"]:checked',
     );
     const selectedLevels = Array.from(checkedBoxes).map((cb) => cb.value);
     const filtered = Store.filterDifficultyLevels(selectedLevels);

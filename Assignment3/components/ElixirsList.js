@@ -50,11 +50,11 @@ export function displayElixirs(elixirs) {
 
         td_name.appendChild(document.createTextNode(elixir.name ?? ""));
         td_difficulty.appendChild(
-            document.createTextNode(elixir.difficulty ?? "")
+            document.createTextNode(elixir.difficulty ?? ""),
         );
         td_effect.appendChild(document.createTextNode(elixir.effect ?? ""));
         td_side_effectst.appendChild(
-            document.createTextNode(elixir.sideEffects ?? "")
+            document.createTextNode(elixir.sideEffects ?? ""),
         );
 
         tr.onclick = () => {

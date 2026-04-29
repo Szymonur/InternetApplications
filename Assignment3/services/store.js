@@ -22,14 +22,15 @@ export const Store = {
 
     // Available values : Unknown, Advanced, Moderate, Beginner, OrdinaryWizardingLevel, OneOfAKind
     getDifficultyLevels: () => {
-        const uniqueSet = state.allElixirs.reduce((acc, elixir) => {
-            if (elixir.difficulty) {
-                acc.add(elixir.difficulty);
-            }
+        const difficulties = state.allElixirs
+            .map((elixir) => elixir.difficulty)
+            .filter(Boolean);
 
-            return acc;
-        }, new Set());
-        return uniqueSet;
+        const uniqueLevels = [...new Set(difficulties)];
+
+        state.filters.difficultyLevels = uniqueLevels;
+
+        return uniqueLevels;
     },
 
     filterDifficultyLevels: (difficultyLevels) => {
@@ -49,8 +50,9 @@ function filterTogether() {
             .includes(state.filters.searchTerm.toLowerCase());
 
         const matchesDifficulty = state.filters.difficultyLevels.includes(
-            elixir.difficulty
+            elixir.difficulty,
         );
+
         return matchesSearch && matchesDifficulty;
     });
 }

@@ -13,7 +13,7 @@ export async function getData(url) {
 
 export async function getElixirList() {
     const response = await getData(
-        "https://wizard-world-api.herokuapp.com/Elixirs"
+        "https://wizard-world-api.herokuapp.com/Elixirs",
     );
     Store.setElixirs(response);
     return response;
@@ -21,7 +21,7 @@ export async function getElixirList() {
 
 export async function getElixirDetails(id) {
     const response = await getData(
-        `https://wizard-world-api.herokuapp.com/Elixirs/${id}`
+        `https://wizard-world-api.herokuapp.com/Elixirs/${id}`,
     );
     console.log("simpulate sloooow api...");
     return new Promise((resolve) => {
