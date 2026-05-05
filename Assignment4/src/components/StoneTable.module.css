@@ -25,3 +25,7 @@ input[type="number"] {
 .tdMode {
     border: none;
 }
+.imageCellContainer {
+    text-align: center;
+    font-size: 1.25rem;
+}

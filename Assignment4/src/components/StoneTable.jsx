@@ -1,10 +1,17 @@
 import { useState, useEffect } from "react";
 import styles from "./StoneTable.module.css";
 import { FaSortNumericDownAlt } from "react-icons/fa";
-import { FaSortNumericUp } from "react-icons/fa";
+import { FaSortNumericUp, FaTrashAlt, FaPlusCircle } from "react-icons/fa";
 import EditableTd from "./EditableTd";
 
-function StoneTable({ stones, updateField, sortOrder, toggleSort }) {
+function StoneTable({
+    stones,
+    updateField,
+    sortOrder,
+    toggleSort,
+    addStone,
+    deleteStone,
+}) {
     return (
         <>
             <table>
@@ -48,13 +55,29 @@ function StoneTable({ stones, updateField, sortOrder, toggleSort }) {
                                     maxNumber={10}
                                     updateField={updateField}
                                 />
-                                <td>
+                                <EditableTd
+                                    id={stone.id}
+                                    field="image"
+                                    value={stone.image}
+                                    type="image"
+                                    updateField={updateField}
+                                />
+                                {/* <td>
                                     <img src={stone.image} alt={stone.name} />
+                                </td> */}
+                                <td
+                                    onClick={() => deleteStone(stone.id)}
+                                    className="delete-column"
+                                >
+                                    <FaTrashAlt className="icon" />
                                 </td>
                             </tr>
                         ))}
                 </tbody>
             </table>
+            <div className="add-stone-row">
+                <FaPlusCircle onClick={addStone} className="icon" />
+            </div>
         </>
     );
 }

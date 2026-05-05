@@ -13,6 +13,8 @@ function App() {
         updateField,
         sortOrder,
         toggleSort,
+        addStone,
+        deleteStone,
     } = useStones();
 
     return (
@@ -26,6 +28,8 @@ function App() {
                     updateField={updateField}
                     sortOrder={sortOrder}
                     toggleSort={toggleSort}
+                    addStone={addStone}
+                    deleteStone={deleteStone}
                 />
             )}
         </div>

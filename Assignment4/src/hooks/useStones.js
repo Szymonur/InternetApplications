@@ -27,6 +27,25 @@ export function useStones() {
                 setIsLoading(false);
             });
     }, []);
+
+    const addStone = () => {
+        const stoneToAdd = {
+            id: crypto.randomUUID(),
+            name: "",
+            description: "",
+            image: "",
+            rating: 0,
+        };
+        setStones((prevStones) => [...prevStones, stoneToAdd]);
+    };
+
+    const deleteStone = (id) => {
+        // Zwracamy nową tablicę, w której nie ma kamienia o podanym id
+        setStones((prevStones) =>
+            prevStones.filter((stone) => stone.id !== id),
+        );
+    };
+
     const updateField = (id, field, newValue) => {
         setStones((prev) =>
             prev.map((s) => (s.id === id ? { ...s, [field]: newValue } : s)),
@@ -72,6 +91,8 @@ export function useStones() {
         setSearchQuery,
         updateField,
         sortOrder,
+        addStone,
+        deleteStone,
         toggleSort,
     };
 }
