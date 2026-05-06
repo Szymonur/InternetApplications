@@ -17,7 +17,12 @@ router.post("/checkout", async (req, res) => {
         await checkout(items);
         res.redirect(303, "/product");
     } catch (error) {
-        res.status(400).send({ error: error.message });
+        const products = await getProducts();
+        const availableProducts = products.filter((p) => p.stock > 0);
+        res.status(400).send({ 
+            error: error.message, 
+            products: availableProducts 
+        });
     }
 });
 
