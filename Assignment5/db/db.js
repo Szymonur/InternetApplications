@@ -57,20 +57,44 @@ export async function deleteProduct(id) {
 }
 
 export async function decreaseProductStock(id, decreaseBy) {
-    const product = await getProduct(id);
-
-    if (product.stock < decreaseBy) {
-        throw new Error("decreaseProductStock: not enought stock!");
-    }
-
     const [result] = await pool.query(
         `
 		UPDATE shop.products
 		SET stock = stock - ?
-		WHERE id = ?;`,
-        [decreaseBy, id],
+		WHERE id = ? AND stock >= ?;`,
+        [decreaseBy, id, decreaseBy],
     );
+
+    if (result.affectedRows === 0) {
+        throw new Error("Brak wystarczającej ilości towaru w magazynie!");
+    }
+
     return result;
+}
+
+export async function checkout(items) {
+    const connection = await pool.getConnection();
+    try {
+        await connection.beginTransaction();
+
+        for (const item of items) {
+            const [result] = await connection.query(
+                "UPDATE products SET stock = stock - ? WHERE id = ? AND stock >= ?",
+                [item.quantity, item.id, item.quantity]
+            );
+
+            if (result.affectedRows === 0) {
+                throw new Error(`Produkt ${item.title} jest już niedostępny w tej ilości.`);
+            }
+        }
+
+        await connection.commit();
+    } catch (error) {
+        await connection.rollback();
+        throw error;
+    } finally {
+        connection.release();
+    }
 }
 
 export async function increaseProductStock(id, increaseBy) {

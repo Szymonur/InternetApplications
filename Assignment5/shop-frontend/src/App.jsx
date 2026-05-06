@@ -6,7 +6,7 @@ import CartView from "./components/Cart.jsx";
 import { useProducts } from "./hooks/useProducts.js";
 
 function App() {
-    const { products, addToCart, cart, updateQuantity, removeFromCart } = useProducts();
+    const { products, addToCart, cart, updateQuantity, removeFromCart, buyItems } = useProducts();
     const [view, setView] = useState("products"); // 'products' lub 'cart'
 
     return (
@@ -21,6 +21,7 @@ function App() {
                         setView={setView} 
                         updateQuantity={updateQuantity} 
                         removeFromCart={removeFromCart} 
+                        buyItems={buyItems}
                     />
                 )}
             </div>
@@ -29,3 +30,4 @@ function App() {
 }
 
 export default App;
+

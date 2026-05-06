@@ -1,5 +1,5 @@
 import express from "express";
-import { getProducts, getProduct } from "../db/db.js";
+import { getProducts, getProduct, checkout } from "../db/db.js";
 const router = express.Router();
 
 router.get("/", async (req, res) => {
@@ -8,6 +8,16 @@ router.get("/", async (req, res) => {
         res.status(404);
     }
     res.send(result);
+});
+
+router.post("/checkout", async (req, res) => {
+    const { items } = req.body;
+    try {
+        await checkout(items);
+        res.status(200).send({ message: "Zakup zakończony pomyślnie!" });
+    } catch (error) {
+        res.status(400).send({ error: error.message });
+    }
 });
 
 router.get("/:id", async (req, res) => {

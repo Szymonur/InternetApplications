@@ -1,6 +1,16 @@
 import { FaCartPlus } from "react-icons/fa";
 
 function Products({ products, addToCart }) {
+    const handleAddToCard = (p) => {
+        try {
+            addToCart(p);
+        } catch (e) {
+            console.warn(e);
+            alert(
+                "Nie można zwiększyć ilości - brak wystarczającej liczby produktów w magazynie.",
+            );
+        }
+    };
     return (
         <>
             <div className="products">
@@ -19,8 +29,8 @@ function Products({ products, addToCart }) {
                             <div className="product-price">{p.price} zł</div>
                             <div className="product-cart">
                                 <FaCartPlus
-                                    className="product-cart-icon"
-                                    onClick={() => addToCart(p)}
+                                    className="product-cart-icon icon"
+                                    onClick={() => handleAddToCard(p)}
                                 />
                             </div>
                         </div>

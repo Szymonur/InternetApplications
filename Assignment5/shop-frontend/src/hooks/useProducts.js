@@ -11,7 +11,7 @@ export function useProducts() {
         localStorage.setItem("cart", JSON.stringify(cart));
     }, [cart]);
 
-    useEffect(() => {
+    const fetchProducts = () => {
         fetch("http://localhost:8080/product", {
             headers: {
                 "Content-Type": "application/json",
@@ -28,13 +28,23 @@ export function useProducts() {
             .catch((error) => {
                 console.error("Get json error: ", error);
             });
+    };
+
+    useEffect(() => {
+        fetchProducts();
     }, []);
 
     const addToCart = (product) => {
-        setCart((prevCart) => {
-            const existingItem = prevCart.find(
-                (item) => item.id === product.id,
+        const existingItem = cart.find((item) => item.id === product.id);
+        const currentQuantity = existingItem ? existingItem.quantity : 0;
+
+        if (currentQuantity + 1 > product.stock) {
+            throw new Error(
+                "Cannot add product to cart. The request quantity is greater than avaliable stock",
             );
+        }
+
+        setCart((prevCart) => {
             if (existingItem) {
                 return prevCart.map((item) =>
                     item.id === product.id
@@ -47,13 +57,24 @@ export function useProducts() {
     };
 
     const updateQuantity = (productId, delta) => {
+        const itemInCart = cart.find((item) => item.id === productId);
+        if (!itemInCart) return;
+
+        const newQuantity = itemInCart.quantity + delta;
+
+        if (delta > 0 && newQuantity > itemInCart.stock) {
+            throw new Error(
+                "Cannot increase quantity. Not enough stock available.",
+            );
+        }
+
         setCart((prevCart) =>
             prevCart
                 .map((item) =>
                     item.id === productId
                         ? {
                               ...item,
-                              quantity: Math.max(0, item.quantity + delta),
+                              quantity: Math.max(0, newQuantity),
                           }
                         : item,
                 )
@@ -65,11 +86,37 @@ export function useProducts() {
         setCart((prevCart) => prevCart.filter((item) => item.id !== productId));
     };
 
+    const clearCart = () => {
+        setCart([]);
+        localStorage.removeItem("cart");
+    };
+
+    const buyItems = async () => {
+        const response = await fetch("http://localhost:8080/product/checkout", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            },
+            body: JSON.stringify({ items: cart }),
+        });
+
+        const data = await response.json();
+
+        if (!response.ok) {
+            throw new Error(data.error || "Błąd podczas zakupu");
+        }
+
+        clearCart();
+        fetchProducts(); // Odśwież stany magazynowe
+        return data.message;
+    };
+
     return {
         products,
         cart,
         addToCart,
         updateQuantity,
         removeFromCart,
+        buyItems,
     };
 }
