@@ -80,11 +80,13 @@ export async function checkout(items) {
         for (const item of items) {
             const [result] = await connection.query(
                 "UPDATE products SET stock = stock - ? WHERE id = ? AND stock >= ?",
-                [item.quantity, item.id, item.quantity]
+                [item.quantity, item.id, item.quantity],
             );
 
             if (result.affectedRows === 0) {
-                throw new Error(`Produkt ${item.title} jest już niedostępny w tej ilości.`);
+                throw new Error(
+                    `Produkt ${item.title} jest już niedostępny w tej ilości.`,
+                );
             }
         }
 

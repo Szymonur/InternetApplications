@@ -5,16 +5,17 @@ const router = express.Router();
 router.get("/", async (req, res) => {
     const result = await getProducts();
     if (!result) {
-        res.status(404);
+        return res.status(404).send();
     }
-    res.send(result);
+    const availableProducts = result.filter((p) => p.stock > 0);
+    res.send(availableProducts);
 });
 
 router.post("/checkout", async (req, res) => {
     const { items } = req.body;
     try {
         await checkout(items);
-        res.status(200).send({ message: "Zakup zakończony pomyślnie!" });
+        res.redirect(303, "/product");
     } catch (error) {
         res.status(400).send({ error: error.message });
     }

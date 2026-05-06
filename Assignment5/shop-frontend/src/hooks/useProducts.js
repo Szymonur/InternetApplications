@@ -106,9 +106,9 @@ export function useProducts() {
             throw new Error(data.error || "Błąd podczas zakupu");
         }
 
+        setProducts(data);
         clearCart();
-        fetchProducts(); // Odśwież stany magazynowe
-        return data.message;
+        return "Zakup zakończony pomyślnie!";
     };
 
     return {
